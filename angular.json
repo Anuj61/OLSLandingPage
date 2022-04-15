@@ -22,14 +22,30 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/simpleLife/simple-line-icons.css",
+              "src/assets/css/fancybox/jquery.fancybox.css",
+              "src/assets/css/flexslider.css",
+              "src/assets/js/owl-carousel/owl.carousel.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/jquery.js",
+              "src/assets/js/jquery.easing.1.3.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery.fancybox.pack.js",
+              "src/assets/js/jquery.fancybox-media.js",
+              "src/assets/js/portfolio/jquery.quicksand.js",
+              "src/assets/js/portfolio/setting.js",
+              "src/assets/js/jquery.flexslider.js",
+              "src/assets/js/animate.js",
+              "src/assets/js/custom.js",
+              "src/assets/js/owl-carousel/owl.carousel.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,13 +105,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         }
